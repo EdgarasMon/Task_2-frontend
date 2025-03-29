@@ -20,3 +20,8 @@ This project is a YouTube Comments Fetcher built with React and Material UI, des
 ### How to Run
 
 - npm start
+
+### Screenshots
+
+![screen](/screenshots/1.png)
+![screen with warning banner](/screenshots/2.png)
