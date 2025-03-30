@@ -5,10 +5,9 @@ import Box from "@mui/material/Box";
 import CircularProgress from "@mui/material/CircularProgress";
 import axios from "axios";
 
-const YOUTUBE_API_KEY = "AIzaSyDczKTtRPzFSHas9Phcm1RAeUQC3kzewGA";
-const BASE_YOUTUBE_URL = "https://www.googleapis.com/youtube/v3/commentThreads";
-const PORT = 3001;
-const SERVER_URL = `http://localhost:${PORT}`;
+const YOUTUBE_API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
+const BASE_YOUTUBE_URL = process.env.REACT_APP_BASE_YOUTUBE_URL;
+const SERVER_URL = process.env.REACT_APP_SERVER_URL;
 
 const Input = (props) => {
   const { setCommentsCB, setFetchedFromDatabaseCB } = props;

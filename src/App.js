@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import InfoBanner from "./components/infoBanner";
-import CommentCard from "./components/commentCard";
-import Input from "./components/input";
+import InfoBanner from "./components/InfoBanner";
+import CommentCard from "./components/CommentCard";
+import Input from "./components/Input";
 
 const App = () => {
   const [comments, setComments] = useState([]);

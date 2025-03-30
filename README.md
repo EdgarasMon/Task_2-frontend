@@ -23,5 +23,9 @@ This project is a YouTube Comments Fetcher built with React and Material UI, des
 
 ### Screenshots
 
-![screen](/screenshots/1.png)
-![screen with warning banner](/screenshots/2.png)
+- The following screenshots show the application in action in first fetching comments from a YouTube video and then displaying them in a card layout.
+
+![main screen](./public/screenshots/1.png)
+
+- The second time we try to fetch same video shows a warning banner that comments are fetched from dabtabase.
+  ![warning banner](./public/screenshots/2.png)
